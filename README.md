@@ -1,4 +1,4 @@
-# Unreal Pipeline Tools – Asset Validation
+# Unreal Editor Asset Validator
 
 This repository contains a simple Unreal Engine **Editor Python tool** that demonstrates
 pipeline-style asset validation inside the Unreal Editor.
@@ -25,10 +25,12 @@ This tool demonstrates how editor scripting can be used to:
 
 ## How to Run
 
-### Option 1: Output Log
 1. Open the Unreal Editor
 2. Select one or more assets
-3. Open **Window → Developer Tools → Output Log**
-4. Run:
-   ```python
-   import validate_assets
+3. Go to **Tools → Execute Python Script…**
+4. Run `Content/Python/validate_assets.py`
+
+## Notes
+
+This tool is intentionally small and focused.
+It is meant to demonstrate editor scripting and pipeline thinking rather than be a complete validation framework.
